@@ -28,6 +28,13 @@ public:
 		mark = m;
 	}
 
+	Student(string nm) {
+		//cout << "calling canonical constructor" << endl;
+		name = nm;
+		age = 0;
+		mark = 0;
+	}
+
 	string convert() {
 		string s = "";
 
