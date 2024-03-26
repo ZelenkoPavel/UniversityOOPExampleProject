@@ -8,4 +8,10 @@ public:
 	string name;
 	int age;
 	double mark;
+
+
+	// default-constructor
+	Student() {
+		cout << "calling default-constructor" << endl;
+	}
 };
