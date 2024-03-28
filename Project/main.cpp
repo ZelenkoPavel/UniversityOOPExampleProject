@@ -4,6 +4,7 @@
 using namespace std;
 
 int main() {
+
 	Student st1("Alex", 14, 9);
 	Student st2("Alice", 13, 7);
 	Student st3("Potter", 15, 10);
