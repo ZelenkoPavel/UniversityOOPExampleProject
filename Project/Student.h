@@ -43,8 +43,12 @@ public:
 		mark = m;
 	}
 
-	// destructor (деструктор)
+	////copy-constructor
+	//Student(const Student& students) {
 
+	//}
+
+	// destructor (деструктор)
 	~Student() {
 		cout << "calling destructor" << endl;
 		//delete[] mark;
