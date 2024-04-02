@@ -16,6 +16,7 @@ public:
 
 		return max;
 	}
+
 	double getMinMark(Student* students, int length) {
 		double min = students[0].mark;
 
@@ -28,6 +29,7 @@ public:
 
 		return min;
 	}
+
 	double calcAverageMark(Student* students, int length) {
 		double average = 0;
 
