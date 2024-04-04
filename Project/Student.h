@@ -5,20 +5,19 @@
 using namespace std;
 
 class Student {
+private:
+
+
 public:
 	string name;
 	int age;
 	double mark;
-	//double* mark;
-
-
 	// default constructor
 	Student() {
 		//cout << "calling default constructor" << endl;
 		name = "no name";
 		age = 5;
 		mark = 4;
-		//*mark = new double[5];
 	}
 
 
@@ -51,7 +50,6 @@ public:
 	// destructor (деструктор)
 	~Student() {
 		//cout << "calling destructor" << endl;
-		//delete[] mark;
 	}
 
 	string convert() {

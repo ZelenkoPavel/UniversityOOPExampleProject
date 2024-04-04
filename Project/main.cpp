@@ -11,6 +11,9 @@ int main() {
 	Student st4("Potter", 13, 10);
 	Student st5("Matvey", 15, 8);
 
+	st1.age = -20;
+	st1.mark = -1;
+
 	Student students[]{ st1, st2, st3, st4, st5 };
 
 	Manager manager;
