@@ -1,32 +1,6 @@
 #include "Student.h"
 
 
-Student::Student() {
-	name = "no name";
-	age = 5;
-	mark = 4;
-}
-Student::Student(string name, int age, double mark) {
-	this->name = name;
-	this->age = age;
-	this->mark = mark;
-}
-Student::Student(string name) {
-	this->name = name;
-	this->age = 0;
-	this->mark = 0;
-}
-Student::Student(double mark) {
-	this->name = "no name";
-	this->age = 0;
-	this->mark = mark;
-}
-
-
-Student::~Student() {
-	
-}
-
 
 string Student::getName() {
 	return name;

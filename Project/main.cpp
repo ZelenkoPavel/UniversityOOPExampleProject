@@ -5,15 +5,11 @@
 using namespace std;
 
 int main() {
-	Student st1("Alex", 14, 9);
+	Student st1();
 
-	cout << st1.convert() << endl;
-
-	Student* st2 = new Student("Peter", 16, 10);
-	
-	cout << st2->convert() << endl;
-	
+	Student* st2 = new Student();
 	delete st2;
+
 
 	return 0;
 }
