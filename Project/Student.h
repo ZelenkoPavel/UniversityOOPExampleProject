@@ -13,20 +13,20 @@ private:
 public:
 
 	Student();
-	Student(string nm, int a, double m);
-	Student(string nm);
-	Student(double m);
+	Student(string, int, double);
+	Student(string);
+	Student(double);
 
 	~Student();
 
 	string getName();
-	void setName(string nm);
+	void setName(string);
 
 	int getAge();
-	void setAge(int a);
+	void setAge(int);
 
 	double getMark();
-	void setMark(double m);
+	void setMark(double);
 
 	string convert();
 
