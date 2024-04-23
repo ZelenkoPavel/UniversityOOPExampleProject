@@ -31,6 +31,7 @@ int main() {
 
 	Manager manager;
 
+
 	cout << "Avarage mark of A: " << manager.calcAverageMark(groupA) << endl;
 	cout << "Avarage mark of B: " << manager.calcAverageMark(groupB) << endl;
 
