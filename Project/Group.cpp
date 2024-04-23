@@ -26,9 +26,42 @@ void Group::add(Student student) {
 	size++;
 }
 
-//bool remove(Student student) {
-//
-//}o
+void Group::remove(Student student) {
+	int index = findFirstIndex(student);
+	remove(index);
+}
+
+int Group::findFirstIndex(Student student) {
+
+	for (int i = 0; i < size; i++)
+	{
+		if (list[i].getName() == student.getName()
+			&& list[i].getAge() == student.getAge()
+			&& list[i].getMark() == student.getMark()) {
+			return i;
+		}
+	}
+	return -1;
+}
+
+void Group::remove(int index) {
+	if (index >= 0 && index < size) {
+		Student* temp = new Student[size - 1];
+
+		for (int i = 0, j = 0; i < size; i++)
+		{
+			if (i != index) {
+				temp[j] = list[i];
+				j++;
+			}
+		}
+
+		delete[] list;
+		list = temp;
+		size--;
+	}
+}
+
 
 Student Group::get(int index) {
 	if (index >= 0 && index < size) {
