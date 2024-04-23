@@ -5,14 +5,25 @@ int Group::getSize() {
 	return size;
 }
 
-bool Group::add(Student student) {
-	if (size < 30) {
+void Group::add(Student student) {
+	if (size == 0) {
+		list = new Student[1];
 		list[size] = student;
-		size++;
-		return true;
+	}
+	else {
+		Student* temp = new Student[size + 1];
+
+		for (int i = 0; i < size; i++)
+		{
+			temp[i] = list[i];
+		}
+
+		temp[size] = student;
+		delete[] list;
+		list = temp;
 	}
 
-	return false;
+	size++;
 }
 
 //bool remove(Student student) {
