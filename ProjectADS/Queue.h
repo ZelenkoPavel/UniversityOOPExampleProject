@@ -1,4 +1,9 @@
 #pragma once
+#include <iostream>
+#include <string>
+
+using namespace std;
+
 class Queue
 {
 private:
@@ -11,6 +16,6 @@ public:
 	int peek();
 	int getSize();
 	bool isEmpty();
-
+	string getInfo();
 };
 
