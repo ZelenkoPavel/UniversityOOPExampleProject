@@ -1,7 +1,7 @@
 #include "Queue.h"
 
 void Queue::enqueue(int element) {
-	if (!isEmpty()) {
+	if (isEmpty()) {
 		queue = new int[1];
 		queue[0] = element;
 	}
