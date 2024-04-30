@@ -76,7 +76,7 @@ string Group::getInfo() {
 	for (int i = 0; i < size; i++)
 	{
 		s += "\n" + to_string(i + 1) + ") ";
-		s += list[i].convert();
+		s += list[i].getInfo();
 	}
 
 	return s;
