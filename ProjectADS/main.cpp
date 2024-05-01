@@ -1,25 +1,28 @@
 #include <iostream>
 #include "Queue.h"
+#include "Stack.h"
 
 using namespace std;
 
 int main() {
 
-	Queue queue;
+	Stack stack;
 
-	queue.enqueue(1);
-	queue.enqueue(2);
-	queue.enqueue(3);
-	queue.enqueue(4);
-	queue.enqueue(5);
+	stack.push(1);
+	stack.push(2);
+	stack.push(3);
+	stack.push(4);
+	stack.push(5);
 
-	cout << queue.getInfo() << endl;
+	cout << stack.getInfo() << endl;
 
-	while (!queue.isEmpty()) {
-		cout << queue.dequeue() << " ";
+	cout << "Size - " << stack.getSize() << endl;
+
+	while (!stack.isEmpty()) {
+		cout << stack.pop() << " ";
 	}
 
-	cout << "\nSize - " << queue.getSize() << endl;
+	cout << "\nSize - " << stack.getSize() << endl;
 
 	return 0;
 }
