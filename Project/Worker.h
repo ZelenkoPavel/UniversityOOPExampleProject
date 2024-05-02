@@ -11,8 +11,9 @@ private:
 
 public:
 	Worker() {}
-	/*Worker(string name, int age, double salary) :
-		name(name), age(age), salary(salary) {}*/
+
+	Worker(string name, int age, double salary) : 
+		Human(name, age), salary(salary) {}
 
 	~Worker() {}
 
