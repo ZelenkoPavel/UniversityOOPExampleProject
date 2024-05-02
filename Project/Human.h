@@ -11,8 +11,6 @@ private:
 	string name;
 	int age;
 
-	int id;
-
 public:
 	Human() {}
 	Human(string name, int age) :
