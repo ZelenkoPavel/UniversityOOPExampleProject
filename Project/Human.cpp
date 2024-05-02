@@ -21,4 +21,6 @@ string Human::getInfo() {
 
 	s += name + ": age - ";
 	s += to_string(age);
+
+	return s;
 }

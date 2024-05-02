@@ -10,9 +10,7 @@ private:
 	double salary;
 
 public:
-	Worker() {
-		cout << "default constructor of Worker" << endl;
-	}
+	Worker() {}
 	/*Worker(string name, int age, double salary) :
 		name(name), age(age), salary(salary) {}*/
 
@@ -20,7 +18,7 @@ public:
 
 
 	double getSalary();
-	double setSalary(double salary);
+	void setSalary(double salary);
 
 	string getInfo();
 };

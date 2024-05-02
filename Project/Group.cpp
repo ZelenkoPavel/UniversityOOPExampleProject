@@ -68,7 +68,7 @@ Student Group::get(int index) {
 		return  list[index];
 	}
 
-	return NULL;  //Student();
+	return Student();
 }
 string Group::getInfo() {
 	string s = "List of students: ";

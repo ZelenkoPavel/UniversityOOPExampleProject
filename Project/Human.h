@@ -13,9 +13,7 @@ private:
 
 
 public:
-	Human() {
-		cout << "default constructor of Human" << endl;
-	}
+	Human() {}
 	Human(string name, int age) :
 		name(name), age(age) {}
 
