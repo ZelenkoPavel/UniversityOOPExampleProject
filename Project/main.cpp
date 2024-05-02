@@ -10,8 +10,8 @@ using namespace std;
 int main() {
 	Worker human;
 
-	human.id = 100;
-	cout << human.id << endl;
+	/*human.id = 100;
+	cout << human.id << endl;*/
 
 
 	return 0;

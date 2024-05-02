@@ -15,7 +15,7 @@ string Worker::getInfo() {
 	s += getName() + ": age = ";
 	s += to_string(getAge()) + ", salary = ";
 	s += to_string(salary);
-	s += "\n" + to_string(id);
+	/*s += "\n" + to_string(id);*/
 
 	return s;
 }

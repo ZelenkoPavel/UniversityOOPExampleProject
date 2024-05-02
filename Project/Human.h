@@ -11,7 +11,6 @@ private:
 	string name;
 	int age;
 
-protected:
 	int id;
 
 public:
