@@ -2,12 +2,16 @@
 #include "Professor.h"
 #include "Manager.h"
 #include "Worker.h"
+#include "Human.h"
 #include <iostream>
 
 using namespace std;
 
 int main() {
-	Professor prof1;
+	Worker human;
+
+	human.id = 100;
+	cout << human.id << endl;
 
 
 	return 0;

@@ -13,6 +13,8 @@ private:
 
 
 public:
+	int id;
+
 	Human() {}
 	Human(string name, int age) :
 		name(name), age(age) {}
