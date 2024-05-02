@@ -11,10 +11,10 @@ private:
 	string name;
 	int age;
 
-
-public:
+protected:
 	int id;
 
+public:
 	Human() {}
 	Human(string name, int age) :
 		name(name), age(age) {}
