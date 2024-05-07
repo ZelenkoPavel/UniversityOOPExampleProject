@@ -24,5 +24,6 @@ int main() {
 
 	cout << "\nSize - " << stack.getSize() << endl;
 
+
 	return 0;
 }
