@@ -13,6 +13,17 @@ public:
 	int getValue();
 	void setValue(int value);
 
+	////////
+	Integer operator+(Integer integer);
+	Integer operator-(Integer integer);
+	Integer operator*(Integer integer);
+	Integer operator/(Integer integer);
+	Integer operator^(int n);
+	Integer operator%(Integer integer);
+	Integer operator-();
+	////////
+
+
 	Integer add(Integer integer);
 	Integer sub(Integer integer);
 	Integer mul(Integer integer);
@@ -22,4 +33,5 @@ public:
 	Integer opp();
 
 };
+
 

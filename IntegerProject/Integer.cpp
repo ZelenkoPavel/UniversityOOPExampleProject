@@ -32,3 +32,30 @@ Integer Integer::mod(Integer integer) {
 Integer Integer::opp() {
 	return Integer(-value);
 }
+
+
+
+//////////////
+Integer Integer::operator+(Integer integer) {
+	return add(integer);
+}
+Integer Integer::operator-(Integer integer) {
+	return sub(integer);
+}
+Integer Integer::operator*(Integer integer) {
+	return mul(integer);
+}
+Integer Integer::operator/(Integer integer) {
+	return div(integer);
+}
+Integer Integer::operator^(int n) {
+	return power(n);
+}
+Integer Integer::operator%(Integer integer) {
+	return mod(integer);
+}
+Integer Integer::operator-() {
+	return opp();
+}
+
+
