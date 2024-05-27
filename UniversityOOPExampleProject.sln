@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.34407.143
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project", "Project\Project.vcxproj", "{2355F800-A469-4DE4-935D-AFA2DAF4B312}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectADS", "ProjectADS\ProjectADS.vcxproj", "{2B0CE202-9B86-40FC-A2D8-85723199B092}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntegerProject", "IntegerProject\IntegerProject.vcxproj", "{2EBB1F72-441F-40D3-80B9-67B9CA62CD22}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GasStationProject", "GasStation\GasStation.vcxproj", "{9D8738E3-D60A-42FD-A93F-15E91381AE3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,14 @@ Global
 		{2EBB1F72-441F-40D3-80B9-67B9CA62CD22}.Release|x64.Build.0 = Release|x64
 		{2EBB1F72-441F-40D3-80B9-67B9CA62CD22}.Release|x86.ActiveCfg = Release|Win32
 		{2EBB1F72-441F-40D3-80B9-67B9CA62CD22}.Release|x86.Build.0 = Release|Win32
+		{9D8738E3-D60A-42FD-A93F-15E91381AE3D}.Debug|x64.ActiveCfg = Debug|x64
+		{9D8738E3-D60A-42FD-A93F-15E91381AE3D}.Debug|x64.Build.0 = Debug|x64
+		{9D8738E3-D60A-42FD-A93F-15E91381AE3D}.Debug|x86.ActiveCfg = Debug|Win32
+		{9D8738E3-D60A-42FD-A93F-15E91381AE3D}.Debug|x86.Build.0 = Debug|Win32
+		{9D8738E3-D60A-42FD-A93F-15E91381AE3D}.Release|x64.ActiveCfg = Release|x64
+		{9D8738E3-D60A-42FD-A93F-15E91381AE3D}.Release|x64.Build.0 = Release|x64
+		{9D8738E3-D60A-42FD-A93F-15E91381AE3D}.Release|x86.ActiveCfg = Release|Win32
+		{9D8738E3-D60A-42FD-A93F-15E91381AE3D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
