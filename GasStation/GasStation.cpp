@@ -1,4 +1,4 @@
-#include "GusStation.h"
+#include "GasStation.h"
 
 
 int GasStation::calcTotalGas(Transport* transports, int size) {
