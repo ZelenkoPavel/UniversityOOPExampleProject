@@ -7,13 +7,19 @@
 using namespace std;
 
 int main() {
-	Figure* figure = new Circle();
-
 	Circle circle1(0, 0, 4);
-	Rectangle rectangle1;
+
 	Rectangle rectangle2(1, 1, 4, 6);
 
-	cout << figure->draw() << endl;
+	Circle* ñircle = new Circle{ circle1 };
+	Rectangle* rectangle = new Rectangle{ rectangle2 };
+
+	Editor editor;
+	
+
+	cout << editor.justDolt(ñircle) << endl << endl;
+
+	cout << editor.justDolt(rectangle) << endl;
 
 	return 0;
 }

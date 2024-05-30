@@ -18,8 +18,10 @@ public:
 	void setX(int x);
 	void setY(int y);
 
+	string startPoint(int x, int y);
+
 	virtual double perimeter() = 0;
 	virtual double square() = 0; 
-	virtual string draw() = 0;
+	virtual string draw();
 };
 

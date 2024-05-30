@@ -26,10 +26,9 @@ double Rectangle::square() {
 	return a * b;
 }
 string Rectangle::draw() {
-	string msg = "Rectangle: start poin x = "
-		+ to_string(x) + ", y = " + to_string(y)
-		+ "; side A = " + to_string(a) 
-		+ "; side B = " + to_string(b);
+	string msg = "Rectangle: " + Figure::draw()
+		+ ";\nside A = " + to_string(a) 
+		+ ";\nside B = " + to_string(b);
 
 	return msg;
 }

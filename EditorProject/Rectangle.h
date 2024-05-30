@@ -11,6 +11,8 @@ public:
 	Rectangle() : Figure(), a(1), b(1) {}
 	Rectangle(int x, int y, double a, double b)
 		: Figure(x, y), a(a), b(b) {}
+	Rectangle(double a, double b)
+		: a(a), b(b) {}
 
 	double getSideA();
 	void  setSideA(double a);

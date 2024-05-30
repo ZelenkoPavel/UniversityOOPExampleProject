@@ -17,9 +17,8 @@ double Circle::square() {
 	return PI * radius * radius;
 }
 string Circle::draw() {
-	string msg = "Circle: start poin x = "
-		+ to_string(x) + ", y = " + to_string(y)
-		+ "; radius = " + to_string(radius);
+	string msg = "Circle: start poin x = " + Figure::draw()
+		+ ";\nradius = " + to_string(radius);
 
 	return msg;
 }
