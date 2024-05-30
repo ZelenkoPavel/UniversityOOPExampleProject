@@ -22,6 +22,11 @@ public:
 
 	virtual double perimeter() = 0;
 	virtual double square() = 0; 
-	virtual string draw();
+	virtual string draw() {
+		string msg = "start poin x = "
+			+ to_string(x) + ", y = " + to_string(y);
+
+		return msg;
+	}
 };
 
