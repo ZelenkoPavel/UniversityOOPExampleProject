@@ -6,7 +6,7 @@ using namespace std;
 
 class Figure
 {
-private:
+protected:
 	int x;
 	int y;
 public:
