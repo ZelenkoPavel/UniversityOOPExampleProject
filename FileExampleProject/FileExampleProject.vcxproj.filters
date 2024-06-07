@@ -36,5 +36,8 @@
     <ClCompile Include="Task07.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SumTask08.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
