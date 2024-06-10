@@ -1,0 +1,39 @@
+#include <iostream>	// input-output streams
+#include <fstream>	// file streams
+#include <string>
+
+using namespace std;
+
+int main() {
+
+	ifstream fin("input.txt");
+	ofstream fout("output.txt");
+
+
+	string line;
+	while (getline(fin, line)) {
+		string clean_line;
+		bool last_char_was_space = false;
+
+		for (char c : line) {
+			if (c == ' ') {
+				if (!last_char_was_space) {
+					clean_line += c;
+				}
+				last_char_was_space = true;
+			}
+			else {
+				clean_line += c;
+				last_char_was_space = false;
+			}
+		}
+
+		fout << clean_line << endl;
+	}
+
+
+	fin.close();
+	fout.close();
+
+	return 0;
+}
