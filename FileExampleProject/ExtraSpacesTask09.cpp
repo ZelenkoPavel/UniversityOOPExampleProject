@@ -10,11 +10,12 @@ int main() {
 	ifstream fin("input.txt");
 	ofstream fout("output.txt");
 	
-	ofstream fout1("output1.txt");
-	ifstream fin1("output1.txt");
+
 
 	while (!fin.eof()) {
-		
+		ofstream fout1("output1.txt");
+		ifstream fin1("output1.txt");
+
 		getline(fin, msg);
 		fout1 << msg << endl;
 
@@ -25,10 +26,10 @@ int main() {
 			fout << s << " ";
 		}
 		fout << endl;
+		fin1.close();
+		fout1.close();
 
 	}
-	fin1.close();
-	fout1.close();
 
 	fin.close();
 	fout.close();
